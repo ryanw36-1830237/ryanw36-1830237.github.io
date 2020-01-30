@@ -1,0 +1,28 @@
+body {
+    background-color: powderblue;
+}
+style {
+    #example1 {
+        border: 2px solid red;
+        padding: 10px;
+        border-top-right-radius: 25px;
+    }
+    
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+p.dotted {border-style: dotted;}
+
+<img style="float": left; margin: 0px 15px 15px 0px;" src="https://www.dw.com/image/50907943_403.jpg" width="100" />
+
