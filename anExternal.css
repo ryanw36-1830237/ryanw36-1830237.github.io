@@ -1,0 +1,44 @@
+body {
+    background-color: powderblue;
+}
+
+.cutedog {
+    height: 50px;
+    width: 50px;
+}
+
+#Container {
+    position: relative;
+}
+
+#cavapoo {
+    width: 100%;
+    height: auto;
+    margin: 20px;
+}
+
+#TExt {
+    left: 50%;
+    border-style: dotted;
+    border-width: thin;
+    text-shadow: 5px 5px 5px purple;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    color: yellow;
+}
+
+#Floatingdogtreats {
+    float: right;
+    border-radius: 25px;
+    background: #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 150px; 
+}
+
+#dogtreat{
+    width: 150px;
+}
