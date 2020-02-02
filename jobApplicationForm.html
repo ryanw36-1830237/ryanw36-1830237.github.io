@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=devie-width, intial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Pizza Parlor Job Application </title>
+</head>
+<body>
+    <div="mainContent">
+        <h1> Pizza Parlor Job Application</h1>
+        <p> If you want to learn how to make the perfect pizza, apply here!</p><br/>
+        <div class="form class">
+            <form name="input" action="https://formspree.io/mgeaqka1" method="post">
+                <fieldset>
+                    <legend>Basic Info</legend>
+                    Full name: <input type="text" name="name"/><br/><br/>
+                    Email: <input type="email" name="_replyto"><br/><br/>
+                    <label>What is your favorite type of pizza?</label><br/>
+                <input type="radio" name="pizza" value="Cheese"> Cheese <br/> <input type="radio" name="pizza" value="Meat"> Meat <br/> <input type="radio" name="pizza" value="Pepperoni"> Pepperoni <br/> <input type="radio" name="pizza" value="Pineapple"> Pineapple <br/> <input type="radio" name="pizza" value="Veggie"> Veggie <br/><br/><br/>
+                <label>What is your least favorite topping?</label><br/>
+                <select name="toppings"> 
+                    <option value="Pineapple">Pineapple</option> <option value="Pepper">Pepper</option> <option value="Mushroom">Mushroom</option>
+                </select><br/><br/>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Essay</legend>
+                    <label>Please tell us why we should choose YOU to be the next pizza maker, what makes you unique?</label> <br/> <textarea name="essay">Text Here</textarea><br/><br/><br/>
+                </fieldset>
+
+                <fieldset>
+                    <legend>More Information</legend>
+                    <label>What do you want to learn to do?</label> <br/>
+                    <input type="checkbox" name="skills" value="Make Dough"> Make Dough <br/> <input type="checkbox" name="skills" value="Flip Dough">Flip Dough<br/> <input type="checkbox" name="skills" value="Slice the Pizza">Slice the Pizza<br/><br/>
+                    <label>What kind of crust do you prefer?</label><br/>
+                    <select name="CrustPreference">
+                        <optgroup label="Thick">
+                            <option value="Deepdish">Deepdish</option>
+                            <option value="Cheese Stuffed">Cheese Stuffed</option>
+                            </optgroup>
+                        <optgroup label="Thin">
+                            <option value="Paper like">Paper like</option>
+                            <option value="New York Style">New York Style</option>
+                            </optgroup>
+                    </select>
+                    <input type="submit" value="Send">
+                </fieldset>
+                
+                
+            </form>
+        </div>
+</body>
+
+</html>
